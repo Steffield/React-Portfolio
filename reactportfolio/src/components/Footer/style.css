@@ -1,0 +1,30 @@
+#toTopBtn:hover{
+  box-shadow:0px 0px 7px 0px #e3cfcf;;
+  /* padding:20px; */
+  color:#e3cfcf;
+  background-color: rgb(52, 47, 54);
+}
+
+/* -----footer---- */
+
+footer{
+  background-color: rgb(52, 47, 54);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  opacity:.6;
+}
+footer:hover{
+  opacity:1;
+}
+   
+#copyright{
+  color:white;
+}
+
+@media (max-width:900px) and (min-width:700px){
+
+  /* footer{
+    
+    opacity:1;
+  } */
+}

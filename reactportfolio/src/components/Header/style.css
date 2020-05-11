@@ -1,0 +1,62 @@
+/* ------navbar related styling -------*/
+.nav-top{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0;
+}
+
+#navbar{
+width:100%;
+overflow:hidden;
+display:block;
+background-color: rgb(52, 47, 54);
+color:#c0b5c0;
+opacity:.9;
+border-radius:0px;
+}
+#navbar:before,
+#navbar:after{
+content:"";
+display:table;
+clear:both;
+}
+
+#navLink{
+float:right!important;
+} 
+/* #navLink:hover{
+  color:#b6a9b6!important;
+  background-color:rgb(52, 47, 54);
+  text-decoration: none;
+} */
+
+#navLink:hover,
+.navbar-item:hover{
+  background-color: #e3cfcf; 
+  color:rgb(52, 47, 54);
+  text-decoration: none;
+}
+
+/* .navbar-item button:hover{
+  background-color:  #c0b5c0;
+  color:rgb(52, 47, 54);
+  text-decoration: none;
+} */
+
+#home{
+  position:relative;
+}
+
+#home:hover{
+  display:block;
+}
+
+#navFixed{
+  background-color: rgb(52, 47, 54)!important;
+  color: #c0b5c0!important;
+  display:block;
+  width:100%;
+  text-align:center;
+
+}

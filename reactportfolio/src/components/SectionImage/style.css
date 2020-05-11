@@ -1,0 +1,64 @@
+/* -----picture related-------- */
+
+/* Create a Parallax Effect */
+
+.bgImg {
+  /* background-attachment: fixed!important; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* -----Text in bg img 1------ */
+
+#bgTextLeft{
+  position:absolute;
+  top:30%;
+  left:3%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%);
+  white-space:nowrap;
+}
+
+#bgTextRight{
+  position:absolute;
+  top:60%;
+  right:3%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%);
+  white-space:nowrap;
+}
+
+#rightSpan{
+  padding:12px 24px!important;
+  font-size:12px!important;
+  animation:opac 0.8s;
+}
+
+#nameSpan{
+  font-size: 36px;
+  padding:10px;
+}
+
+#jobSpan{
+  font-size: 24px;
+  padding:10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgImg {
+    background-attachment: scroll;
+    min-height: 800px;
+  }
+}
+@media (min-width:1024px){
+  .bgImg {
+    background-attachment: fixed!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  }
