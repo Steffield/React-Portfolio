@@ -32,7 +32,7 @@
 .card:hover{
   background: #7a7777;
   background: -webkit-linear-gradient(#7a7777, #d18989);
-  background:    -moz-linear-gradient(#7a7777, #d18989);
+  background:    -moz-linear-gradient(#7a7777, d18989#);
   background:         linear-gradient(#7a7777, #d18989);
 
 }  */
@@ -159,9 +159,12 @@
   .pfPic{
     height:250px
   }
+
 }
 @media (max-width:400px){
   .pfPic{
     height:200px;
+    margin:20px 20px 20px 35px;
+
   }
 }

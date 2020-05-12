@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 
 // import portfolioIMG from "../../backgroundImages/work.png"
 
 
 function SectionImage (props){
-  const [dimensions, setDimensions] = React.useState({
+  const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth
   })
@@ -19,7 +19,7 @@ function SectionImage (props){
   })
   return(
     <>
-      <div className="bgImg" id="portfolio"style={{height: dimensions.height, backgroundImage: `url(${props.bgIMG})`}}>
+      <div className="bgImg" id="portfolio"style={{height: dimensions.height, backgroundImage: `url(${props.bgIMG})` }}>
         <div className="absolute">
           <span className="sectionSpan wide">{props.sectionName}</span>
         </div>

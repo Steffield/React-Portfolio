@@ -9,7 +9,6 @@ function Contact() {
     <>
   
     <SectionImage bgIMG={contact} sectionName={"CONTACT"}/>
-      {/* // <!-- Contact Section --> */}
       <div className="content section" id="contactSection">
         <h3 className="center">Contact Me</h3>
         <hr></hr>
@@ -22,17 +21,17 @@ function Contact() {
             </div>
             <p>Or leave me a note:</p>
 
-          <form className="contact" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/steffilebby@gmail.com" method="post">
+          <form className="contact" id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/steffilebby@gmail.com" method="post">
             <fieldset id="fs-frm-inputs">
-              <label for="full-name">Name</label>
+              <label htmlFor="full-name">Name</label>
               <input type="text" name="name" id="full-name" placeholder="Name" required=""></input>
-              <label for="email-address">Email</label>
+              <label htmlFor="email-address">Email</label>
               <input type="email" name="_replyto" id="email-address" placeholder="Email" required=""></input>
-              <label for="message">Message</label>
+              <label htmlFor="message">Message</label>
               <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
             </fieldset>
-            <button type="submit" class="button center padding-large" id="sendBtn">
+            <button type="submit" className="button center padding-large" id="sendBtn">
               <i className="fa fa-paper-plane"></i> Send Message
             </button>
             {/* <!-- <input type="submit" value="Submit" id="sendBtn"> --> */}

@@ -10,7 +10,6 @@ function Home(){
     <>
     <SectionImage bgIMG={work} sectionName={"PORTFOLIO"}/>
 
-    {/* // <!-- Portfolio Section --> */}
     <div className="content section" id="portfolioSection">
       <h3 className="center">MY PORTFOLIO</h3>
       <hr></hr>

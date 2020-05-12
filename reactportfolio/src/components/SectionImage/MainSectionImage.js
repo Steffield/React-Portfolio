@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./style.css"
+import "./SectionImage.css"
 import lh from "../../backgroundImages/lh.png";
 import Typist from 'react-typist';
 
