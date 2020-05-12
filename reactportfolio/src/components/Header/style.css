@@ -6,6 +6,10 @@
   top:0;
 }
 
+.navbar-item{
+  margin-right: 30px
+}
+
 #navbar{
 width:100%;
 overflow:hidden;
@@ -14,6 +18,8 @@ background-color: rgb(52, 47, 54);
 color:#c0b5c0;
 opacity:.9;
 border-radius:0px;
+padding: 5px;
+font-size: 1.2em
 }
 #navbar:before,
 #navbar:after{
@@ -33,7 +39,7 @@ float:right!important;
 
 #navLink:hover,
 .navbar-item:hover{
-  background-color: #e3cfcf; 
+  background-color: #e7d8d1; 
   color:rgb(52, 47, 54);
   text-decoration: none;
 }
@@ -54,7 +60,7 @@ float:right!important;
 
 #navFixed{
   background-color: rgb(52, 47, 54)!important;
-  color: #c0b5c0!important;
+  color: #e7d8d1!important;
   display:block;
   width:100%;
   text-align:center;

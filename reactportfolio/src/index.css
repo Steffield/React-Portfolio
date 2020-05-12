@@ -21,6 +21,8 @@ html {
   line-height: 1.8;
   color: rgb(52, 47, 54);
   background-color: #e7d8d1;
+  /* background:linear-gradient(#bc8f8f,#e7d8d1); */
+
   /* background-color: #bc8f8f; */
   /* background-color: #c0b5c0!important; */
   margin:0;
@@ -42,14 +44,21 @@ html {
 #toTopBtn,
 #sendBtn{
   padding:7px;
-  border-radius:5px;
+  /* border-radius:5px; */
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   /* box-shadow:0px 0px 7px 0px gray; */
-  background-color: #e7d8d1;
+  /* background-color: #e7d8d1; */
   text-decoration:none;
   font-size:16px;
   margin-top:20px;
-  border: 1px solid gray
+  border: 1px solid gray;
+  /* border: 5px solid transparent;
+  border-image: linear-gradient(to right, #d18989, #7a7777);
+  border-image-slice: 1; */
+  background: #7a7777;
+  background: -webkit-linear-gradient(to left, #d18989,  #d9bfbf, #f6efef);
+  background:    -moz-linear-gradient(to left, #d18989,  #d9bfbf, #f6efef);
+  background:         linear-gradient(to left, #d18989,  #d9bfbf, #f6efef);
 }
 /* 
 #resumeBtn{
@@ -234,8 +243,11 @@ hr{
  #myPhoto{
   /* max-width:100%; */
   opacity: .7;
-  border: 5px solid #bc8f8f;
+  /* border: 5px solid #bc8f8f; */
   margin-bottom: 30px;
+  border: 8px solid transparent;
+  border-image: linear-gradient(to right, #d18989, #7a7777);
+  border-image-slice: 1; 
 }
 #aboutRow{
   padding:12px 24px!important;
@@ -246,7 +258,9 @@ hr{
   height:auto; */
   /* box-shadow: 4px 4px 6px 6px #e3cfcf; */
   opacity: 1;
-  border: 2px solid #bc8f8f;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to left, #d18989, #7a7777);
+  border-image-slice: 1; 
 
 }
 
@@ -331,11 +345,6 @@ label{
   margin-bottom:0!important;
 }
 
-.badge{
-  /* background-color: #bc8f8f!important; */
-  color: #e3cfcf!important;
-  font-size: .9em!important;
-}
 
 
 
@@ -362,21 +371,7 @@ label{
 } */
 
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgImg {
-    background-attachment: scroll;
-    min-height: 800px;
-  }
-}
-@media (min-width:1024px){
-  .bgImg {
-    background-attachment: fixed!important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  }
+
 
 @media (max-width:900px) and (min-width:700px){
   #nameSpan{
@@ -418,10 +413,10 @@ label{
     left:0%;
   }
   #nameSpan{
-    font-size:24px;
+    font-size:20px;
   }
   #jobSpan{
-    font-size:18px;
+    font-size:14px;
   }
 
   .iconsTop{
@@ -484,6 +479,7 @@ and (max-device-width : 414px) {
    h1 {
        font-size: 2em;
    }
+
 }
 
 

@@ -1,18 +1,36 @@
-import React from "react";
+import React, {Component} from "react";
 import "./style.css"
 import lh from "../../backgroundImages/lh.png";
-
+import Typist from 'react-typist';
 
 function MainSectionImage(){
+  const [dimensions, setDimensions] = React.useState({
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
+  React.useEffect(() => {
+    function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+      window.addEventListener('resize', handleResize)
+    }
+  })
+
   return(
     <>
-    <div className="bgImg" id="home" style={{height: window.innerHeight, width: window.innerWidth, backgroundImage: `url(${lh})`}}>
+    <div className="bgImg" id="home" style={{height: dimensions.height,  backgroundImage: `url(${lh})`}}>
       {/* <img  src={lh} alt="mainImg" /> */}
       <div id="bgTextLeft">
-        <span className="wide" id="nameSpan">Stephanie Lebby </span>
+      <Typist>
+        <span className="wide" id="nameSpan">
+          Stephanie Lebby</span>
         <br></br>
+        <span className="wide" id="jobSpan">Speech Language Pathologist</span>
+        <Typist.Backspace count={27} delay={100}/>
         <span className="wide" id="jobSpan">Full Stack Web Developer</span>
-
+        </Typist>
       </div>
       <div id="bgTextRight">
         {/* <!-- <span id="rightSpan" class="center wide"><span class="hide-small"> -->

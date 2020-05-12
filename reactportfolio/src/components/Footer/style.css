@@ -9,16 +9,17 @@
 
 footer{
   background-color: rgb(52, 47, 54);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  opacity:.6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity:.9;
+
 }
 footer:hover{
   opacity:1;
 }
    
 #copyright{
-  color:white;
+  color:#e3cfcf;
 }
 
 @media (max-width:900px) and (min-width:700px){

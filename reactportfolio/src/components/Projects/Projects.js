@@ -56,6 +56,21 @@ function Projects(props) {
         technologies="OpenWeatherMap API, Moment.js, Node, jQuery, Bootstrap"
       />
       </div>
+
+      <div className="row">
+      <ProjectCard
+        link="https://steffield-burger-app.herokuapp.com/"
+        image={burger}
+        projectName="Burger App"
+        technologies="MySQL, Node, Express, Materialize, JavaScript"
+      />
+      <ProjectCard
+        link="https://steffield.github.io/WeatherApp/"
+        image={weather}
+        projectName="Weather App"
+        technologies="OpenWeatherMap API, Moment.js, Node, jQuery, Bootstrap"
+      />
+      </div>
     
     </div>
     </>
