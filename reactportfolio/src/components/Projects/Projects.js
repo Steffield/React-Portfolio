@@ -6,6 +6,8 @@ import workoutTracker from "../../projectImages/WorkoutTracker.png"
 import budget from "../../projectImages/OfflineBudget.png"
 import weather from "../../projectImages/WA.png"
 import election from "../../projectImages/KYV.png"
+import EmpDir from "../../projectImages/EmpDir.png"
+import Planner from "../../projectImages/Planner.png"
 
  
 function Projects(props) {
@@ -29,10 +31,10 @@ function Projects(props) {
 
       <div className="row">
       <ProjectCard
-        link="https://steffield-pwa-budget-tracker.herokuapp.com/"
-        image={budget}
-        projectName="On-/ Offline Budget Tracker"
-        technologies="MongoDB, Mongoose, Chart.js, Express, IndexedDB, Bootstrap"
+        link="https://steffield.github.io/User-Directory/"
+        image={EmpDir}
+        projectName="Employee Directory"
+        technologies="React.js, Axios, Third Party API randomuserapi.me, Bootstrap"
       />
       <ProjectCard
         link="https://steffield.github.io/Project-One//"
@@ -50,19 +52,19 @@ function Projects(props) {
         technologies="MySQL, Node, Express, Materialize, JavaScript"
       />
       <ProjectCard
-        link="https://steffield.github.io/WeatherApp/"
-        image={weather}
-        projectName="Weather App"
-        technologies="OpenWeatherMap API, Moment.js, Node, jQuery, Bootstrap"
+        link="https://steffield-pwa-budget-tracker.herokuapp.com/"
+        image={budget}
+        projectName="On-/ Offline Budget Tracker"
+        technologies="MongoDB, Mongoose, Chart.js, Express, IndexedDB, Bootstrap"
       />
       </div>
 
       <div className="row">
       <ProjectCard
-        link="https://steffield-burger-app.herokuapp.com/"
-        image={burger}
-        projectName="Burger App"
-        technologies="MySQL, Node, Express, Materialize, JavaScript"
+        link="https://steffield.github.io/DayPlanner/"
+        image={Planner}
+        projectName="Day Planner"
+        technologies="Moment.js, JavasCript, localStorage"
       />
       <ProjectCard
         link="https://steffield.github.io/WeatherApp/"

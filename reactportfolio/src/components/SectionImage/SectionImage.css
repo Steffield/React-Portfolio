@@ -21,7 +21,7 @@
   transform:translate(0%,-50%);
   -ms-transform:translate(-0%,-50%);
   white-space:nowrap;
-  text-shadow: 3px 1px 0px #bc8f8f;
+  text-shadow: 1px 1px 0px #bc8f8f;
 }
 
 #bgTextRight{
@@ -31,7 +31,7 @@
   transform:translate(0%,-50%);
   -ms-transform:translate(0%,-50%);
   white-space:nowrap;
-  text-shadow: 3px 2px 0px #bc8f8f;
+  text-shadow: 1px 2px 0px #bc8f8f;
 
   
 }
@@ -50,6 +50,82 @@
 #jobSpan{
   font-size: 28px;
   padding:10px;
+}
+
+/* -----in the sections----- */
+
+.content{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:980px;
+  padding-top:64px!important;
+  padding-bottom:64px!important;
+}
+
+.section{
+  padding:0.01em 16px;
+}
+
+.section:after,
+.section:before{
+  float:left;
+  width:100%;
+}
+
+.wide{
+  letter-spacing:4px;
+}
+
+.center{
+  text-align:center!important;
+
+}
+.margin-right{
+  margin-right:16px!important;
+
+}
+#portfolio,
+#contact{
+  position:relative;
+  opacity:.75;
+  
+}
+.absolute{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+}
+.relative{
+  position: relative;
+}
+
+.sectionSpan{
+  font-size:60px;
+  color:white;
+  text-shadow: 3px 1px 0px black;
+
+}
+
+
+a #git:hover,
+a #linkedIn:hover {
+    width: 150px;
+    height: 150px;  
+}
+
+.githubInText{
+  color: #bc8f8f;
+  font-weight: bold;
+  padding-left: 5px;
+  /* font-size:1.2em; */
+}
+
+.githubInText:hover{
+  color: #6c4040;
+  /* font-weight: bold; */
+  /* font-size: 2em; */
 }
 
 /* Turn off parallax scrolling for tablets and phones */

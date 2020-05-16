@@ -5,10 +5,12 @@ import contact from "../../backgroundImages/contact.png"
 
 
 function Contact() {
+  // add that when scrolled to top go to port
   return (
     <>
   
     <SectionImage bgIMG={contact} sectionName={"CONTACT"}/>
+    
       <div className="content section" id="contactSection">
         <h3 className="center">Contact Me</h3>
         <hr></hr>

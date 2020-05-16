@@ -4,6 +4,8 @@ import MainSectionImage from "../../components/SectionImage/MainSectionImage"
 
 
 function Home(){
+
+  //window.scrollTo ...when bottom of page hit change to route about
   return (
     <>
     <MainSectionImage />

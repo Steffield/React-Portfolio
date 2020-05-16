@@ -27,8 +27,8 @@ function MainSectionImage(){
         <span className="wide" id="nameSpan">
           Stephanie Lebby</span>
         <br></br>
-        <span className="wide" id="jobSpan">Speech Language Pathologist</span>
-        <Typist.Backspace count={27} delay={100}/>
+        <span className="wide" id="jobSpan">Front End</span>
+        <Typist.Backspace count={9} delay={70}/>
         <span className="wide" id="jobSpan">Full Stack Web Developer</span>
         </Typist>
       </div>

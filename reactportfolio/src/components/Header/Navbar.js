@@ -1,8 +1,9 @@
-import React, {useState } from "react";
+import React from "react";
 import "./Navbar.css";
 
 function Navbar(){
  
+// add function that if scroll meets end of window route to about etc. 
 
     // // navbar change when scrolling
     // window.onscroll = function() {
@@ -23,13 +24,11 @@ const handleToggle=  () => {
     var x = document.getElementById("navFixed");
     if (x.className.indexOf("show") === -1 && x.className.indexOf("hide-small") === 0) {
         x.className = x.className.replace("hide-small", " show");
-        // x.className -= "hide-small";
     } else {
         x.className = x.className.replace(" show", "hide-small");
     }
 }
   return(
-    // <!-- Navbar-->
     <>
     <div className="nav-top">
       <div id="navbar">
@@ -49,9 +48,9 @@ const handleToggle=  () => {
 
       {/* <!-- Navbar small--> */}
       <div id="navFixed" className="hide-small hide-large hide-medium" onClick={handleToggle}>
-        <a href="/about" className="navbar-item button">ABOUT</a>
-        <a href="/portfolio" className="navbar-item button" >PORTFOLIO</a>
-        <a href="/contact" className="navbar-item button" >CONTACT</a>
+        <a href="/about" className="navbar-item small button">ABOUT</a>
+        <a href="/portfolio" className="navbar-item small button" >PORTFOLIO</a>
+        <a href="/contact" className="navbar-item  small button" >CONTACT</a>
         {/* <!-- <a href="#" class="navbar-item button">SEARCH</a> --> */}
       </div>
     </div>

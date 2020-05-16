@@ -5,6 +5,8 @@ import me from "../../backgroundImages/me.png"
 
 
 function About(){
+
+  //add function when scrolled to top go to home, when scrolled to bottom go to portfolio
   return(
 <>
       <div className="content section" id="about">
