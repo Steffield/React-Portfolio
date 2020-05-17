@@ -15,14 +15,14 @@ function App() {
     <Router>
       <div>
         <Header />
-          <Route exact path="/" component={Home} />
           <Route exact path="/React-Portfolio" component={Home} />
+          {/* <Route exact path="/React-Portfolio" component={Home} /> */}
           {/* <Home /> */}
-          <Route exact path="/about" component={About} />
+          <Route exact path="/React-Portfolio/about" component={About} />
           {/* <About /> */}
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/React-Portfolio/portfolio" component={Portfolio} />
           {/* <Portfolio /> */}
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/React-Portfolio/contact" component={Contact} />
           {/* <Contact /> */}
         <Footer/>
       </div>
