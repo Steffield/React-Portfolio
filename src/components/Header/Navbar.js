@@ -1,4 +1,6 @@
 import React from "react";
+import { Link} from "react-router-dom";
+
 import "./Navbar.css";
 
 function Navbar(){
@@ -37,18 +39,18 @@ const handleToggle=  () => {
         title="Toggle Navigation Menu">
           <i className="fa fa-bars"></i>
         </a>
-        <a href="/React-Portfolio" className="navbar-item button">HOME</a>
-        <a href="/React-Portfolio/about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</a>
-        <a href="/React-Portfolio/portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
-        <a href="/React-Portfolio/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</a>
+        <Link to="/" className="navbar-item button">HOME</Link>
+        <Link to="/about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</Link>
+        <Link to="/portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</Link>
+        <Link to="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</Link>
        
       </div>
 
       {/* <!-- Navbar small--> */}
       <div id="navFixed" className="hide-small hide-large hide-medium" onClick={handleToggle}>
-        <a href="/React-Portfolio/about" className="navbar-item small button">ABOUT</a>
-        <a href="/React-Portfolio/portfolio" className="navbar-item small button" >PORTFOLIO</a>
-        <a href="/React-Portfolio/contact" className="navbar-item  small button" >CONTACT</a>
+        <Link to="/React-Portfolio/about" className="navbar-item small button">ABOUT</Link>
+        <Link to="/React-Portfolio/portfolio" className="navbar-item small button" >PORTFOLIO</Link>
+        <Link to="/React-Portfolio/contact" className="navbar-item  small button" >CONTACT</Link>
       </div>
     </div>
     </>

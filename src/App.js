@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route} from "react-router-dom";
 import Header from './components/Header/Navbar';
 import Home from './pages/Home/index';
 import About from './pages/About/index';
@@ -12,21 +12,21 @@ function App() {
 
   return (
 
-    <Router>
+    <HashRouter basename='/'>
       <div>
         <Header />
-          <Route exact path="/React-Portfolio" component={Home} />
+          <Route exact path="/" component={Home} />
           {/* <Route exact path="/React-Portfolio" component={Home} /> */}
           {/* <Home /> */}
-          <Route exact path="/React-Portfolio/about" component={About} />
+          <Route exact path="/about" component={About} />
           {/* <About /> */}
-          <Route path="/React-Portfolio/portfolio" component={Portfolio} />
+          <Route path="/portfolio" component={Portfolio} />
           {/* <Portfolio /> */}
-          <Route exact path="/React-Portfolio/contact" component={Contact} />
+          <Route exact path="/contact" component={Contact} />
           {/* <Contact /> */}
         <Footer/>
       </div>
-     </Router>
+     </HashRouter>
    
 
   );
