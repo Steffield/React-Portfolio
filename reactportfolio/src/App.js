@@ -6,7 +6,6 @@ import About from './pages/About/index';
 import Portfolio from './pages/Portfolio/index';
 import Contact from './pages/Contact/index';
 import Footer from './components/Footer/Footer'
-// import Wrapper from './components/Wrapper'
 import './App.css';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
     <Router>
       <div>
         <Header />
-        {/* <Wrapper> */}
           <Route exact path="/" component={Home} />
           {/* <Home /> */}
           <Route exact path="/about" component={About} />
@@ -25,7 +23,6 @@ function App() {
           {/* <Portfolio /> */}
           <Route exact path="/contact" component={Contact} />
           {/* <Contact /> */}
-        {/* </Wrapper> */}
         <Footer/>
       </div>
      </Router>

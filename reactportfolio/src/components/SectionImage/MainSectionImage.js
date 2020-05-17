@@ -1,27 +1,27 @@
-import React, {Component} from "react";
+import React from "react";
 import "./SectionImage.css"
 import lh from "../../backgroundImages/lh.png";
 import Typist from 'react-typist';
 
-function MainSectionImage(){
-  const [dimensions, setDimensions] = React.useState({
-    height: window.innerHeight,
-    width: window.innerWidth
-  })
-  React.useEffect(() => {
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth
-      })
-      window.addEventListener('resize', handleResize)
-    }
-  })
+function MainSectionImage(props){
+  // const [height, setHeight] = React.useState(window.innerHeight);
+  // const [width, setWidth] = useState(window.innerWidth)
+  
+  // const handleResize = () => {
+  //   setWidth(window.innerWidth);
+  //   setHeight(window.innerHeight)
+  // };
+
+  // React.useEffect(() => {
+  //     window.addEventListener('resize', handleResize);
+  //     return () =>
+  //       window.removeEventListener('resize', handleResize)
+  //     })
+
 
   return(
     <>
-    <div className="bgImg" id="home" style={{height: dimensions.height,  backgroundImage: `url(${lh})`}}>
-      {/* <img  src={lh} alt="mainImg" /> */}
+    <div className="bgImg" id="home" style={{backgroundImage: `url(${lh})`}}>
       <div id="bgTextLeft">
       <Typist>
         <span className="wide" id="nameSpan">
@@ -33,14 +33,8 @@ function MainSectionImage(){
         </Typist>
       </div>
       <div id="bgTextRight">
-        {/* <!-- <span id="rightSpan" class="center wide"><span class="hide-small"> -->
-            <!-- <div class="col-lg-6"> --> */}
           <a href="https://github.com/Steffield"><i class="fa fa-github iconsTop"></i></a>
-          <a href="https://www.linkedin.com/in/stephanie-lebby-684098118?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin iconsTop"></i></a>
-
-               {/* <!-- </div> -->
-        <!-- </span></span>--> */}
-            
+          <a href="https://www.linkedin.com/in/stephanie-lebby-684098118?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin iconsTop"></i></a>    
       </div>
     </div>
 
