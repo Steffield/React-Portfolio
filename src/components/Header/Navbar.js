@@ -41,9 +41,7 @@ const handleToggle=  () => {
         <a href="/about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</a>
         <a href="/portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
         <a href="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</a>
-        {/* <!-- <a id="search" href="#" class="navbar-item button hide-small">
-          <i class="fa fa-search"></i>
-        </a> --> */}
+       
       </div>
 
       {/* <!-- Navbar small--> */}
@@ -51,7 +49,6 @@ const handleToggle=  () => {
         <a href="/about" className="navbar-item small button">ABOUT</a>
         <a href="/portfolio" className="navbar-item small button" >PORTFOLIO</a>
         <a href="/contact" className="navbar-item  small button" >CONTACT</a>
-        {/* <!-- <a href="#" class="navbar-item button">SEARCH</a> --> */}
       </div>
     </div>
     </>

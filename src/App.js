@@ -16,6 +16,7 @@ function App() {
       <div>
         <Header />
           <Route exact path="/" component={Home} />
+          <Route exact path="/React-Portfolio" component={Home} />
           {/* <Home /> */}
           <Route exact path="/about" component={About} />
           {/* <About /> */}

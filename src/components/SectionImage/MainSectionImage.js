@@ -1,11 +1,10 @@
 import React from "react";
 import "./SectionImage.css"
-import lh from "../../backgroundImages/lh.png";
 import Typist from 'react-typist';
 
 function MainSectionImage(props){
   // const [height, setHeight] = React.useState(window.innerHeight);
-  // const [width, setWidth] = useState(window.innerWidth)
+  // const [width, setWidth] = React.useState(window.innerWidth)
   
   // const handleResize = () => {
   //   setWidth(window.innerWidth);
@@ -17,12 +16,13 @@ function MainSectionImage(props){
   //     return () =>
   //       window.removeEventListener('resize', handleResize)
   //     })
-
+      // backgroundImage: `url(${lh})
 
   return(
     <>
-    <div className="bgImg" id="home" style={{backgroundImage: `url(${lh})`}}>
+    <div className="bgImg" id="home" style={{backgroundImage: `url(${props.bgIMG})`}}>
       <div id="bgTextLeft">
+      
       <Typist>
         <span className="wide" id="nameSpan">
           Stephanie Lebby</span>
@@ -30,7 +30,8 @@ function MainSectionImage(props){
         <span className="wide" id="jobSpan">Front End</span>
         <Typist.Backspace count={9} delay={70}/>
         <span className="wide" id="jobSpan">Full Stack Web Developer</span>
-        </Typist>
+      </Typist>
+
       </div>
       <div id="bgTextRight">
           <a href="https://github.com/Steffield"><i class="fa fa-github iconsTop"></i></a>
