@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import smoothscroll from 'smoothscroll-polyfill';
+
+
+// Add polyfill for Element.scrollIntoView() smooth scroll
+smoothscroll.polyfill();
 
 ReactDOM.render(
   <React.StrictMode>

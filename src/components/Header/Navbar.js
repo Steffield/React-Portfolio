@@ -1,5 +1,6 @@
 import React from "react";
-import { Link} from "react-router-dom";
+
+// import { Link} from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -39,18 +40,25 @@ const handleToggle=  () => {
         title="Toggle Navigation Menu">
           <i className="fa fa-bars"></i>
         </a>
-        <Link to="/" className="navbar-item button">HOME</Link>
+        {/* <Link to="/" className="navbar-item button">HOME</Link>
         <Link to="/about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</Link>
         <Link to="/portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</Link>
-        <Link to="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</Link>
+        <Link to="/contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</Link> */}
+        <a href="#" className="navbar-item button">HOME</a>
+        <a href="#about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</a>
+        <a href="#portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
+        <a href="#contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</a>
        
       </div>
 
       {/* <!-- Navbar small--> */}
       <div id="navFixed" className="hide-small hide-large hide-medium" onClick={handleToggle}>
-        <Link to="/about" className="navbar-item small button">ABOUT</Link>
+        {/* <Link to="/about" className="navbar-item small button">ABOUT</Link>
         <Link to="/portfolio" className="navbar-item small button" >PORTFOLIO</Link>
-        <Link to="/contact" className="navbar-item  small button" >CONTACT</Link>
+        <Link to="/contact" className="navbar-item  small button" >CONTACT</Link> */}
+        <a href="#about" className="navbar-item small button">ABOUT</a>
+        <a href="#portfolio" className="navbar-item small button" >PORTFOLIO</a>
+        <a href="#contact" className="navbar-item small button" >CONTACT</a>
       </div>
     </div>
     </>

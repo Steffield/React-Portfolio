@@ -7,7 +7,7 @@ import work from "../../backgroundImages/work.png"
 
 function Portfolio(){
   return (
-    <>
+    <div id="portfolio">
     <SectionImage bgIMG={work} sectionName={"PORTFOLIO"}/>
 
     <div className="content section" id="portfolioSection">
@@ -24,7 +24,7 @@ function Portfolio(){
     
     <Projects />
     </div>
-    </>
+    </div>
     )
   }
 

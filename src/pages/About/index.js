@@ -3,14 +3,13 @@ import "../../index.css";
 import me from "../../backgroundImages/me.png"
 import Resume from "../../backgroundImages/Resume.pdf"
 
-// import Container from "../../components/Container";
-
 
 function About(){
 
   //add function when scrolled to top go to home, when scrolled to bottom go to portfolio
   return(
 <>
+
       <div className="content section" id="about">
         <h3 className="center">ABOUT ME</h3>
         <hr></hr>
@@ -40,7 +39,10 @@ function About(){
             </div>
           </div>
         </div>
+
       </div>
+      {/* </ScrollableAnchor> */}
+
       </>
 
   )

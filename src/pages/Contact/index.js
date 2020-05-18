@@ -7,12 +7,13 @@ import contact from "../../backgroundImages/contact.png"
 function Contact() {
   // add that when scrolled to top go to port
   return (
-    <>
+    <div id="contact">
   
-    <SectionImage bgIMG={contact} sectionName={"CONTACT"}/>
-    
+
+  <SectionImage bgIMG={contact} sectionName={"CONTACT"}/>
+
       <div className="content section" id="contactSection">
-        <h3 className="center">Contact Me</h3>
+        <h3 className="center">CONTACT ME</h3>
         <hr></hr>
 
           <div className="col-md-12" id="contactPanel">
@@ -40,8 +41,7 @@ function Contact() {
           </form>
           </div>
         </div>
-      {/* </div> */}
-    </>
+    </div>
     );
 }
 

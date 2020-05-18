@@ -7,12 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
-* {
+{
   box-sizing: border-box;
 }
 body, 
@@ -25,7 +25,8 @@ html {
   font-family: 'Raleway', sans-serif!important ;
   font-size:15px;
   line-height:1.5;
-}
+} 
+
 
 
 /* -------buttons------ */
