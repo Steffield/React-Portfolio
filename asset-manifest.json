@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d44a4ffc.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.60c1ead1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.60c1ead1.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.43b94a2a.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.353990e0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.353990e0.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.d08fb9a1.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d08fb9a1.js.map",
-    "static/js/2.0031bcc0.chunk.js": "/react-portfolio/static/js/2.0031bcc0.chunk.js",
-    "static/js/2.0031bcc0.chunk.js.map": "/react-portfolio/static/js/2.0031bcc0.chunk.js.map",
+    "static/js/2.946cecfb.chunk.js": "/react-portfolio/static/js/2.946cecfb.chunk.js",
+    "static/js/2.946cecfb.chunk.js.map": "/react-portfolio/static/js/2.946cecfb.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.e3a72525e8e2c4d975229d3ffb1a303a.js": "/react-portfolio/precache-manifest.e3a72525e8e2c4d975229d3ffb1a303a.js",
+    "precache-manifest.e4b0e557d1d472973c9c62ef13ebf636.js": "/react-portfolio/precache-manifest.e4b0e557d1d472973c9c62ef13ebf636.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.d44a4ffc.chunk.css.map": "/react-portfolio/static/css/main.d44a4ffc.chunk.css.map",
-    "static/js/2.0031bcc0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0031bcc0.chunk.js.LICENSE.txt",
+    "static/css/main.43b94a2a.chunk.css.map": "/react-portfolio/static/css/main.43b94a2a.chunk.css.map",
+    "static/js/2.946cecfb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.946cecfb.chunk.js.LICENSE.txt",
     "static/media/CQ.png": "/react-portfolio/static/media/CQ.f80afaac.png",
     "static/media/EmpDir.png": "/react-portfolio/static/media/EmpDir.e5839d65.png",
     "static/media/KYV.png": "/react-portfolio/static/media/KYV.5a4d4a7f.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d08fb9a1.js",
-    "static/js/2.0031bcc0.chunk.js",
-    "static/css/main.d44a4ffc.chunk.css",
-    "static/js/main.60c1ead1.chunk.js"
+    "static/js/2.946cecfb.chunk.js",
+    "static/css/main.43b94a2a.chunk.css",
+    "static/js/main.353990e0.chunk.js"
   ]
 }
