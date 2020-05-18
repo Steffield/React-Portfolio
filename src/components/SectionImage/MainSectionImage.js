@@ -1,7 +1,7 @@
 import React from "react";
 import "./SectionImage.css"
 import Typist from 'react-typist';
-import lh from "./backgroundImages/lh.png";
+import lh from "../../backgroundImages/lh.png";
 
 function MainSectionImage(){
   // const [height, setHeight] = React.useState(window.innerHeight);

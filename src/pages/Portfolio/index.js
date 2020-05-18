@@ -2,7 +2,7 @@ import React from "react";
 import "../../index.css";
 import SectionImage from "../../components/SectionImage/SectionImage";
 import Projects from "../../components/Projects/Projects";
-import work from "../backgroundImages/work.png"
+import work from "../../backgroundImages/work.png"
 
 
 function Portfolio(){
