@@ -10,7 +10,7 @@ import EmpDir from "../../projectImages/EmpDir.png"
 import Planner from "../../projectImages/Planner.png"
 
  
-function Projects(props) {
+function Projects() {
   return (
 <>
     <div>

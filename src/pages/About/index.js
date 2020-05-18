@@ -1,6 +1,8 @@
 import React from "react";
 import "../../index.css";
 import me from "../../backgroundImages/me.png"
+import Resume from "../../backgroundImages/Resume.pdf"
+
 // import Container from "../../components/Container";
 
 
@@ -21,7 +23,7 @@ function About(){
               <div className= "col-md-6">
                 <h4>Stephanie Lebby</h4>
                 <br></br>
-                <img src={me} id="myPhoto" class="gradient-border" alt="Stephanie Lebby" width="280" height="300"></img>
+                <img src={me} id="myPhoto" className="gradient-border" alt="Stephanie Lebby" width="280" height="300"></img>
               </div>
               <div className="col-md-6">
                 <h4>My Skills</h4>
@@ -30,7 +32,7 @@ function About(){
     
                 <br></br>
             
-                <form method="get" action="./assets/images/Resume.pdf">
+                <form method="get" action={Resume}>
                 <button className="btn btn-outline-dark"id="resumeBtn" type="submit"><i className="fa fa-download fa-fw"></i> Download Resume</button>
                 </form>
               </div>

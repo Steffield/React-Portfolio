@@ -1,8 +1,9 @@
 import React from "react";
 import "./SectionImage.css"
 import Typist from 'react-typist';
+import lh from "./backgroundImages/lh.png";
 
-function MainSectionImage(props){
+function MainSectionImage(){
   // const [height, setHeight] = React.useState(window.innerHeight);
   // const [width, setWidth] = React.useState(window.innerWidth)
   
@@ -16,11 +17,11 @@ function MainSectionImage(props){
   //     return () =>
   //       window.removeEventListener('resize', handleResize)
   //     })
-      // backgroundImage: `url(${lh})
-
+      // 
+      // backgroundImage: `url(${props.bgIMG})
   return(
     <>
-    <div className="bgImg" id="home" style={{backgroundImage: `url(${props.bgIMG})`}}>
+    <div className="bgImg" id="home" style={{height: window.innerHeight, backgroundImage: `url(${lh})`}}>
       <div id="bgTextLeft">
       
       <Typist>
@@ -34,8 +35,8 @@ function MainSectionImage(props){
 
       </div>
       <div id="bgTextRight">
-          <a href="https://github.com/Steffield"><i class="fa fa-github iconsTop"></i></a>
-          <a href="https://www.linkedin.com/in/stephanie-lebby-684098118?trk=people-guest_profile-result-card_result-card_full-click"><i class="fa fa-linkedin iconsTop"></i></a>    
+          <a href="https://github.com/Steffield"><i className="fa fa-github iconsTop"></i></a>
+          <a href="https://www.linkedin.com/in/stephanie-lebby-684098118?trk=people-guest_profile-result-card_result-card_full-click"><i className="fa fa-linkedin iconsTop"></i></a>    
       </div>
     </div>
 

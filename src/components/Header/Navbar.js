@@ -48,9 +48,9 @@ const handleToggle=  () => {
 
       {/* <!-- Navbar small--> */}
       <div id="navFixed" className="hide-small hide-large hide-medium" onClick={handleToggle}>
-        <Link to="/React-Portfolio/about" className="navbar-item small button">ABOUT</Link>
-        <Link to="/React-Portfolio/portfolio" className="navbar-item small button" >PORTFOLIO</Link>
-        <Link to="/React-Portfolio/contact" className="navbar-item  small button" >CONTACT</Link>
+        <Link to="/about" className="navbar-item small button">ABOUT</Link>
+        <Link to="/portfolio" className="navbar-item small button" >PORTFOLIO</Link>
+        <Link to="/contact" className="navbar-item  small button" >CONTACT</Link>
       </div>
     </div>
     </>

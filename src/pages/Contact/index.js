@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index.css";
 import SectionImage from "../../components/SectionImage/SectionImage"
-import contact from "../../backgroundImages/contact.png"
+import contact from "../backgroundImages/contact.png"
 
 
 function Contact() {

@@ -19,7 +19,7 @@ function SectionImage (props){
   // })
   return(
     <>
-      <div className="bgImg" id="portfolio"style={{ backgroundImage: `url(${props.bgIMG})` }}>
+      <div className="bgImg" id="portfolio"style={{height: window.innerHeight, backgroundImage: `url(${props.bgIMG})` }}>
         <div className="absolute">
           <span className="sectionSpan wide">{props.sectionName}</span>
         </div>
