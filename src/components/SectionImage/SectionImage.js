@@ -1,10 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 
-
-// import portfolioIMG from "../../backgroundImages/work.png"
-
-
 function SectionImage (props){
   // const [dimensions, setDimensions] = React.useState({
   //   height: window.innerHeight,
