@@ -7,20 +7,6 @@ function Navbar(){
  
 // add function that if scroll meets end of window route to about etc. 
 
-    // // navbar change when scrolling
-    // window.onscroll = function() {
-    //   myFunction()
-    // };
-    
-    // function myFunction() {
-    //     var navbar = document.getElementById("navbar");
-    //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    //         navbar.className = " card, animate-top";
-    //     } else {
-    //         navbar.className = navbar.className.replace(" card", "");
-        
-    // }
-
 // // toggle menu for small screens
 const handleToggle=  () => {
     var x = document.getElementById("navFixed");
