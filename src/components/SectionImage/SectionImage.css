@@ -3,143 +3,127 @@
 /* Create a Parallax Effect */
 
 .bgImg {
-  /* background-attachment: fixed!important; */
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-
-
 
 /* -----Text in bg img 1------ */
 
-#bgTextLeft{
-  position:absolute;
-  top:30%;
-  left:3%;
-  transform:translate(0%,-50%);
-  -ms-transform:translate(-0%,-50%);
-  white-space:nowrap;
+#bgTextLeft {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+  white-space: nowrap;
   text-shadow: 1px 1px 0px #bc8f8f;
 }
 
-#bgTextRight{
-  position:absolute;
-  top:60%;
-  right:3%;
-  transform:translate(0%,-50%);
-  -ms-transform:translate(0%,-50%);
-  white-space:nowrap;
+#bgTextRight {
+  position: absolute;
+  top: 60%;
+  right: 3%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  white-space: nowrap;
   text-shadow: 1px 2px 0px #bc8f8f;
-
-  
 }
 
-#bgTextTopRight{
-  position:absolute;
-  top:10%;
-  right:3%;
-  transform:translate(0%,-50%);
-  -ms-transform:translate(0%,-50%);
-  white-space:nowrap;
+#bgTextTopRight {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  white-space: nowrap;
   text-shadow: 1px 2px 0px #bc8f8f;
-  opacity: .9;
+  opacity: 0.9;
   border-radius: 25px;
-
-  
 }
 
-#rightSpan{
-  padding:12px 24px!important;
-  font-size:12px!important;
-  animation:opac 0.8s;
+#rightSpan {
+  padding: 12px 24px !important;
+  font-size: 12px !important;
+  /* animation: opac 0.8s; */
 }
 
-#nameSpan{
+#nameSpan {
   font-size: 40px;
-  padding:10px;
+  padding: 10px;
 }
 
-#jobSpan{
+#jobSpan {
   font-size: 28px;
-  padding:10px;
+  padding: 10px;
 }
 
 /* -----in the sections----- */
 
-.content{
-  margin-left:auto;
-  margin-right:auto;
-  max-width:980px;
-  padding-top:64px!important;
-  padding-bottom:64px!important;
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
 }
 
-.section{
-  padding:0.01em 16px;
+.section {
+  padding: 0.01em 16px;
 }
 
 .section:after,
-.section:before{
-  float:left;
-  width:100%;
+.section:before {
+  float: left;
+  width: 100%;
 }
 
-.wide{
-  letter-spacing:4px;
+.wide {
+  letter-spacing: 4px;
 }
 
-.center{
-  text-align:center!important;
-
+.center {
+  text-align: center !important;
 }
-.margin-right{
-  margin-right:16px!important;
-
+.margin-right {
+  margin-right: 16px !important;
 }
 #portfolio,
-#contact{
-  position:relative;
-  opacity:.75;
-  
+#contact {
+  position: relative;
+  opacity: 0.75;
 }
-.absolute{
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%);
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
-.relative{
+.relative {
   position: relative;
 }
 
-.sectionSpan{
-  font-size:60px;
-  color:white;
+.sectionSpan {
+  font-size: 60px;
+  color: white;
   text-shadow: 3px 1px 0px black;
-
 }
-
 
 a #git:hover,
 a #linkedIn:hover {
-    width: 150px;
-    height: 150px;  
+  width: 150px;
+  height: 150px;
 }
 
-.githubInText{
+.githubInText {
   color: #bc8f8f;
   font-weight: bold;
   padding-left: 5px;
-  /* font-size:1.2em; */
 }
 
-.githubInText:hover{
+.githubInText:hover {
   color: #6c4040;
-  /* font-weight: bold; */
-  /* font-size: 2em; */
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -149,55 +133,47 @@ a #linkedIn:hover {
     min-height: 800px;
   }
 }
-@media (min-width:1024px){
+@media (min-width: 1024px) {
   .bgImg {
-    background-attachment: fixed!important;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+@media (max-width: 700px) {
+  .hide-small {
+    display: none !important;
   }
 
-  @media (max-width:700px){
-    .hide-small{
-      display:none!important;
-    }
-  
-    #bgTextLeft{
-      top:30%;
-      left:0%;
-    }
-    #nameSpan{
-      font-size:30px;
-    }
-    #jobSpan{
-      font-size:18px;
-    }
-  
-    .iconsTop{
-      font-size: 3em;
-    }
-    
-  
-    #git,
-    #linkedIn {
+  #bgTextLeft {
+    top: 30%;
+    left: 0%;
+  }
+  #nameSpan {
+    font-size: 30px;
+  }
+  #jobSpan {
+    font-size: 18px;
+  }
+
+  .iconsTop {
+    font-size: 3em;
+  }
+
+  #git,
+  #linkedIn {
     width: 60px;
     height: 60px;
     padding: 5px;
-    }
-  
-    .iconsTop{
-      /* font-size:2em; */
-      padding:5px;
-    }
-    /* .iconsTop:hover{
-      font-size:3em;
-    } */
-  
-    .fa-laptop{
-      padding: 0 5px 0 5px;
-    }
-  
-  
   }
-  
+
+  .iconsTop {
+    padding: 5px;
+  }
+
+  /* .fa-laptop {
+    padding: 0 5px 0 5px;
+  } */
+}

@@ -3,7 +3,6 @@ import ProjectCard from "./ProjectCard.js";
 import burger from "../../projectImages/burger.png";
 import codeQuery from "../../projectImages/CQ.png";
 import workoutTracker from "../../projectImages/WorkoutTracker.png";
-import budget from "../../projectImages/OfflineBudget.png";
 import weather from "../../projectImages/WA.png";
 import election from "../../projectImages/KYV.png";
 import EmpDir from "../../projectImages/EmpDir.png";
