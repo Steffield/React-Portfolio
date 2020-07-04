@@ -52,11 +52,6 @@ function Navbar(props) {
           >
             <i className="fa fa-address-card"></i> CONTACT
           </button>
-          {/* <a href="#" className="navbar-item button">HOME</a>
-        <a href="#about" className="navbar-item button hide-small"><i className="fa fa-female"></i> ABOUT</a>
-        <a href="#portfolio" className="navbar-item button hide-small"><i className="fa fa-th"></i> PORTFOLIO</a>
-        <a href="#contact" className="navbar-item button hide-small"><i className="fa fa-address-card"></i> CONTACT</a>
-        */}
         </div>
 
         {/* <!-- Navbar small--> */}
@@ -65,6 +60,24 @@ function Navbar(props) {
           className="hide-small hide-large hide-medium"
           onClick={handleToggle}
         >
+          <button
+            onClick={() => props.scrollTo(props.aboutRef)}
+            className="navbar-item small button"
+          >
+            <i className="fa fa-female"></i> ABOUT
+          </button>
+          <button
+            onClick={() => props.scrollTo(props.portfolioRef)}
+            className="navbar-item small button"
+          >
+            <i className="fa fa-th"></i> PORTFOLIO
+          </button>
+          <button
+            onClick={() => props.scrollTo(props.contactRef)}
+            className="navbar-item small button"
+          >
+            <i className="fa fa-address-card"></i> CONTACT
+          </button>
           {/* <Link to="/about" className="navbar-item small button">
             ABOUT
           </Link>
@@ -74,9 +87,6 @@ function Navbar(props) {
           <Link to="/contact" className="navbar-item  small button">
             CONTACT
           </Link> */}
-          {/* <a href="#about" className="navbar-item small button">ABOUT</a>
-        <a href="#portfolio" className="navbar-item small button" >PORTFOLIO</a>
-        <a href="#contact" className="navbar-item small button" >CONTACT</a> */}
         </div>
       </div>
     </>
