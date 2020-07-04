@@ -49,13 +49,15 @@
 }
 
 #nameSpan {
-  font-size: 40px;
+  font-size: 45px;
   padding: 10px;
+  opacity: 0.8;
 }
 
 #jobSpan {
-  font-size: 28px;
+  font-size: 30px;
   padding: 10px;
+  opacity: 0.8;
 }
 
 /* -----in the sections----- */

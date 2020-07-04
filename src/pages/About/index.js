@@ -3,11 +3,11 @@ import "../../index.css";
 import me from "../../backgroundImages/me.png";
 import Resume from "../../backgroundImages/Resume.pdf";
 
-function About() {
+function About(props) {
   //add function when scrolled to top go to home, when scrolled to bottom go to portfolio
   return (
     <>
-      <div className="content section" id="about">
+      <div className="content section" id="about" ref={props.aboutRef}>
         <h3 className="center">ABOUT ME</h3>
         <hr></hr>
         <p className="center padding-10">

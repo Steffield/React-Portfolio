@@ -1,9 +1,9 @@
 import React from "react";
-import "./SectionImage.css"
-import Typist from 'react-typist';
+import "./SectionImage.css";
+import Typist from "react-typist";
 import lh from "../../backgroundImages/lh.png";
 
-function MainSectionImage(){
+function MainSectionImage(props) {
   // const [theme, setTheme] = useState('light');
   // const toggleTheme = () => {
   //   if (theme === 'light') {
@@ -14,7 +14,7 @@ function MainSectionImage(){
   // }
   // const [height, setHeight] = React.useState(window.innerHeight);
   // const [width, setWidth] = React.useState(window.innerWidth)
-  
+
   // const handleResize = () => {
   //   setWidth(window.innerWidth);
   //   setHeight(window.innerHeight)
@@ -25,48 +25,56 @@ function MainSectionImage(){
   //     return () =>
   //       window.removeEventListener('resize', handleResize)
   //     })
-      // 
-      // backgroundImage: `url(${props.bgIMG})
-// const handleThemeChange=() =>{
-//   console.log("clicked");
-//   const x = document.getElementsById("day");
-//   console.log(x);
-//   if (x.backgroundColor === "#e7d8d1" ) {
-//       x.backgroundColor.replace("#e7d8d1", " black");
-//   // } else {
-//   //     x.className = x.className.replace(" night", "day");
-//   }
-// }
+  //
+  // backgroundImage: `url(${props.bgIMG})
+  // const handleThemeChange=() =>{
+  //   console.log("clicked");
+  //   const x = document.getElementsById("day");
+  //   console.log(x);
+  //   if (x.backgroundColor === "#e7d8d1" ) {
+  //       x.backgroundColor.replace("#e7d8d1", " black");
+  //   // } else {
+  //   //     x.className = x.className.replace(" night", "day");
+  //   }
+  // }
 
-
-
-  return(
+  return (
     <>
-    <div className="bgImg" id="home" style={{height: window.innerHeight, backgroundImage: `url(${lh})`}}>
-      <div id="bgTextLeft">
-      
-      <Typist>
-        <span className="wide" id="nameSpan">
-          Stephanie Lebby</span>
-        <br></br>
-        <span className="wide" id="jobSpan">Front End</span>
-        <Typist.Backspace count={9} delay={70}/>
-        <span className="wide" id="jobSpan">Full Stack Web Developer</span>
-      </Typist>
-
-      </div>
-      {/* <div id="bgTextTopRight">
+      <div
+        className="bgImg"
+        id="home"
+        ref={props.homeRef}
+        style={{ height: window.innerHeight, backgroundImage: `url(${lh})` }}
+      >
+        <div id="bgTextLeft">
+          <Typist>
+            <span className="wide" id="nameSpan">
+              Stephanie Lebby
+            </span>
+            <br></br>
+            <span className="wide" id="jobSpan">
+              Front End
+            </span>
+            <Typist.Backspace count={9} delay={70} />
+            <span className="wide" id="jobSpan">
+              Full Stack Web Developer
+            </span>
+          </Typist>
+        </div>
+        {/* <div id="bgTextTopRight">
           <button id="changeTheme" onClick={toggleTheme} ><i className="fa fa-moon-o"></i></button>
       </div> */}
-      <div id="bgTextRight">
-          <a href="https://github.com/Steffield"><i className="fa fa-github iconsTop"></i></a>
-          <a href="https://www.linkedin.com/in/stephanie-lebby"><i className="fa fa-linkedin iconsTop"></i></a>    
+        <div id="bgTextRight">
+          <a href="https://github.com/Steffield">
+            <i className="fa fa-github iconsTop"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/stephanie-lebby">
+            <i className="fa fa-linkedin iconsTop"></i>
+          </a>
+        </div>
       </div>
-    </div>
-
-
     </>
-  )
+  );
 }
 
 export default MainSectionImage;
