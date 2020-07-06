@@ -6,7 +6,7 @@
 
 - [Technologies Used](#Technologies-Used)
 
-- [Deployed Link](#Deployed)
+- [Deployed Link](#Deployed-Link)
 
 ## Description
 
@@ -16,7 +16,7 @@ This application is a version of my portfolio page that uses react.js. The appli
 
 The application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Other used technologies include react-spring for a fade effect of section headings and react-typist for a typing animation on the landing page, useRef Hook for the sections and smooth scroll.
 
-## Deployed Link:
+## Deployed Link
 
 The deployed link to gh-pages: <a href="https://steffield.github.io/react-portfolio">React Portfolio</a>.
 
