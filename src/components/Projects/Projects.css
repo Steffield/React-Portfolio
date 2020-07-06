@@ -57,8 +57,13 @@
   background-color: #e7d8d1;
 }
 
-.banner:hover {
+/* .banner:hover {
   opacity: 0;
+} */
+
+.codeLink {
+  color: black !important;
+  text-decoration: none;
 }
 
 #subtext {

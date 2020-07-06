@@ -15,13 +15,9 @@ function Portfolio(props) {
         <p className="center padding-10">
           <em>
             Here are some of my latest projects. Click on the images to be
-            linked to the deployed application or click
-            <a className="githubInText" href="https://github.com/Steffield">
-              {" "}
-              here{" "}
-            </a>
-            to see all of my Github repositories.
-          </em>{" "}
+            linked to the deployed application or click on the specific Github
+            icon to be linked to the code and Github repository.
+          </em>
         </p>
 
         <Projects />

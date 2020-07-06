@@ -271,9 +271,9 @@ label {
 }
 
 @media (min-width: 1400px) {
-  #about {
+  /* #about {
     height: 100vh;
-  }
+  } */
 }
 
 @media (max-width: 900px) and (min-width: 700px) {
@@ -309,7 +309,7 @@ label {
   }
 
   p {
-    text-align: justify;
+    text-align: center;
   }
 
   #bgTextLeft {
