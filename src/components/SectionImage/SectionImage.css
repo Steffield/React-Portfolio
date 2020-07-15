@@ -54,7 +54,7 @@
   opacity: 0.8;
 }
 
-#jobSpan {
+.jobSpan {
   font-size: 30px;
   padding: 10px;
   opacity: 0.8;
@@ -156,7 +156,7 @@ a #linkedIn:hover {
   #nameSpan {
     font-size: 30px;
   }
-  #jobSpan {
+  .jobSpan {
     font-size: 18px;
   }
 

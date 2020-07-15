@@ -191,9 +191,9 @@ hr {
   opacity: 0.7;
   margin-bottom: 30px;
   border: 8px solid transparent;
-  border-image: var(--borderGradientRight);
-  border-image-slice: 1;
+  border-image: var(--borderGradientRight) 1 /35px;
 }
+
 #aboutRow {
   padding: 12px 24px !important;
 }
@@ -201,8 +201,9 @@ hr {
 #myPhoto:hover {
   opacity: 1;
   border: 5px solid transparent;
-  border-image: var(--borderGradientLeft);
-  border-image-slice: 1;
+  border-image: var(--borderGradientLeft) 1;
+  transition: padding 300ms ease-out;
+  transition-delay: 150ms;
 }
 
 .sectionMargin {
@@ -280,7 +281,7 @@ label {
   #nameSpan {
     font-size: 26px;
   }
-  #jobSpan {
+  .jobSpan {
     font-size: 20px;
   }
   footer {
@@ -319,7 +320,7 @@ label {
   #nameSpan {
     font-size: 20px;
   }
-  #jobSpan {
+  .jobSpan {
     font-size: 18px;
   }
 

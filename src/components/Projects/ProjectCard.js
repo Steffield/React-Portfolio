@@ -26,7 +26,7 @@ function ProjectCard(props) {
             </a>
           </h4>
 
-          <p id="subtext">{props.technologies}</p>
+          <p className="subtext">{props.technologies}</p>
         </div>
       </div>
     </>

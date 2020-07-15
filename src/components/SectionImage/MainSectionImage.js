@@ -52,13 +52,9 @@ function MainSectionImage(props) {
               Stephanie Lebby
             </span>
             <br></br>
-            <span className="wide" id="jobSpan">
-              Front End
-            </span>
+            <span className="wide jobSpan">Front End</span>
             <Typist.Backspace count={9} delay={70} />
-            <span className="wide" id="jobSpan">
-              Full Stack Web Developer
-            </span>
+            <span className="wide jobSpan">Full Stack Web Developer</span>
           </Typist>
         </div>
         {/* <div id="bgTextTopRight">

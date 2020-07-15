@@ -19,8 +19,13 @@
 }
 
 .pfPic:hover {
-  border: 5px solid transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent;
   border-image: linear-gradient(to left, #d18989, #7a7777);
+  -moz-border-image: linear-gradient(to left, #d18989, #7a7777);
+  -webkit-border-image: linear-gradient(to left, #d18989, #7a7777);
+  -o-border-image: linear-gradient(to left, #d18989, #7a7777);
   border-image-slice: 1;
   padding: 0;
 }
@@ -66,7 +71,7 @@
   text-decoration: none;
 }
 
-#subtext {
+.subtext {
   margin-top: 10px;
 }
 
