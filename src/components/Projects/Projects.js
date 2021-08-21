@@ -4,7 +4,7 @@ import burger from "../../projectImages/burger.png";
 import codeQuery from "../../projectImages/CQ.png";
 import workoutTracker from "../../projectImages/WorkoutTracker.png";
 import weather from "../../projectImages/WA.png";
-import election from "../../projectImages/KYV.png";
+import covid19 from "../../projectImages/COVID19.png";
 import EmpDir from "../../projectImages/EmpDir.png";
 import Planner from "../../projectImages/Planner.png";
 import M4S from "../../projectImages/M4S.png";
@@ -28,24 +28,6 @@ function Projects() {
             image={codeQuery}
             projectName="Code Query"
             technologies="MySQL, Sequelize, Node, Express, Handlebars, Passport, Socket.io, Jdenticon, SimpleMDE, Markdown.it, Bulma"
-          />
-        </div>
-
-        <div className="row">
-          <ProjectCard
-            link="https://steffield-workout-tracker.herokuapp.com/"
-            codeLink="https://github.com/Steffield/Workout-Tracker"
-            image={workoutTracker}
-            projectName="Workout Tracker"
-            technologies="MongoDB, Mongoose, Express, Chart.js, Semantic UI, Node"
-          />
-
-          <ProjectCard
-            link="https://steffield.github.io/Project-One/"
-            codeLink="https://github.com/Steffield/Know-Your-Vote"
-            image={election}
-            projectName="Know Your Vote"
-            technologies="Google Civic Information API, Google Maps APi, JavaScript, JQuery, Bootstrap"
           />
         </div>
 
@@ -81,6 +63,24 @@ function Projects() {
             projectName="Weather App"
             technologies="OpenWeatherMap API, Moment.js, Node, jQuery, Bootstrap"
           />
+
+          <div className="row">
+            <ProjectCard
+              link="https://steffield-workout-tracker.herokuapp.com/"
+              codeLink="https://github.com/Steffield/Workout-Tracker"
+              image={workoutTracker}
+              projectName="Workout Tracker"
+              technologies="MongoDB, Mongoose, Express, Chart.js, Semantic UI, Node"
+            />
+
+            <ProjectCard
+              link="https://steffield.github.io/react-covid19-app/"
+              codeLink="https://github.com/Steffield/react-covid19-app"
+              image={covid19}
+              projectName="COVID19 Tracker"
+              technologies="react.js, react-dom, chart.js, react-chartjs-2, react-countup, axios, material-ui, third party API https://covid19.mathdro.id/api"
+            />
+          </div>
         </div>
       </div>
     </>
