@@ -11,8 +11,9 @@
   background-color: #f2f0f2;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   position: relative;
-  border: 5px solid transparent;
+  border: 5px solid;
   border-image: linear-gradient(to right, #d18989, #7a7777);
+  -webkit-border-image: -webkit-linear-gradient(to right, #d18989, #7a7777);
   border-image-slice: 1;
   transition: padding 300ms ease-out;
   transition-delay: 150ms;
@@ -22,9 +23,10 @@
   border-style: solid;
   border-width: 5px;
   border-color: transparent;
+  border-color: initial;
   border-image: linear-gradient(to left, #d18989, #7a7777);
-  -moz-border-image: linear-gradient(to left, #d18989, #7a7777);
-  -webkit-border-image: linear-gradient(to left, #d18989, #7a7777);
+  -moz-border-image: -moz-linear-gradient(to left, #d18989, #7a7777);
+  -webkit-border-image: -webkit-linear-gradient(to left, #d18989, #7a7777);
   -o-border-image: linear-gradient(to left, #d18989, #7a7777);
   border-image-slice: 1;
   padding: 0;
@@ -45,7 +47,9 @@
   font-size: 0.8em;
   border-top: 3px ridge transparent;
   border-bottom: 3px ridge transparent;
+  border-color: initial;
   border-image: linear-gradient(to right, #d18989, #7a7777);
+  -webkit-border-image: -webkit-linear-gradient(to right, #d18989, #7a7777);
   border-image-slice: 1;
   transition: opacity 150ms ease-out;
 }

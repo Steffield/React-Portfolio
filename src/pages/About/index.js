@@ -18,10 +18,10 @@ function About(props) {
         </p>
         <p>
           I am Full Stack Web Developer with experience as Technical Consultant
-          Team Lead with Salesforce, working mainly on projects related to
-          health insurance. Currently, I am a Team Lead of a small team of entry
-          level Associate Technical Consultants and am working as a pod lead on
-          a health insurance portal project, using OmniStudio Tools, such as
+          Team Lead at Salesforce, working mainly on projects related to health
+          insurance. Currently, I am a Team Lead of a small team of entry level
+          Associate Technical Consultants and am working as a pod lead on a
+          health insurance portal project, using OmniStudio Tools, such as
           OmniScripts, FlexCards, IntegrationProcedures, DataRaptors as well as
           Apex, SOQL, Lightning Web Components etc. working with Experience
           Cloud to implement a member portal by using Experience Builder. I am a
