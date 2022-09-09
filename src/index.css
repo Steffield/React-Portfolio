@@ -1,36 +1,6 @@
 * {
   box-sizing: border-box;
 }
-:root {
-  --mainBackgroundColor: #e7d8d1;
-  --secondaryBackgroundColor: #7a7777;
-  --secondaryColor: #bc8f8f;
-  --textColor: rgb(52, 47, 54);
-  --mainFont: "Raleway", sans-serif !important ;
-  --boxShadow1: 0 2px 5px 0 rgba(199, 188, 188, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  --borderRadius1: 5px;
-  --gradient1: linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
-  --gradient-moz: -moz-linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
-  --gradient-webkit: -webkit-linear-gradient(
-    to right,
-    #d18989,
-    #d9bfbf,
-    #f6efef
-  );
-  --gradientLeft-webkit: -webkit-linear-gradient(
-    to left,
-    #d18989,
-    #d9bfbf,
-    #f6efef
-  );
-  --gradientLeft-moz: -moz-linear-gradient(to left, #d18989, #d9bfbf, #f6efef);
-  --gradientLeft: linear-gradient(to left, #d18989, #d9bfbf, #f6efef);
-  --hrColor: #6c4040;
-  --iconColor2: #e3cfcf;
-  --borderGradientRight: linear-gradient(to right, #d18989, #7a7777);
-  --borderGradientLeft: linear-gradient(to left, #d18989, #7a7777);
-}
 
 body {
   margin: 0;
@@ -50,10 +20,10 @@ body,
 html {
   height: 100%;
   line-height: 1.8;
-  color: var(--textColor);
-  background-color: var(--mainBackgroundColor);
+  color: rgb(52, 47, 54);
+  background-color: #e7d8d1;
   margin: 0;
-  font-family: var(--mainFont);
+  font-family: "Raleway", sans-serif !important ;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -61,22 +31,23 @@ html {
 /* -------buttons------ */
 #resumeBtn,
 /* #loadMoreBtn, */
- #toTopBtn,
+#toTopBtn,
 #sendBtn {
   padding: 7px;
-  border-radius: var(--borderRadius1);
-  box-shadow: var(--boxShadow1);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(199, 188, 188, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
   text-decoration: none;
   font-size: 16px;
   margin-top: 20px;
-  border: 1px solid var(--secondaryColor);
+  border: 1px solid #bc8f8f;
 
   color: black;
-  background: var(--secondaryBackgroundColor);
-  background: var(--gradientLeft-webkit);
-  background: var(--gradientLeft-moz);
-  background: var(--gradientLeft);
+  background: #7a7777;
+  background: -webkit-linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
+  background: -moz-linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
+  background: linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
 }
 
 .button {
@@ -105,46 +76,24 @@ html {
   opacity: 0.3;
 }
 
-.button:focus,
-.button:hover {
-  outline: none !important;
-
-  text-decoration: none;
+button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
 }
-
-/* .button:active {
-  background-color: var(--secondaryColor);
-} */
 
 #resumeBtn:hover,
 #resumeBtn:hover,
 #sendBtn:hover {
-  background-color: var(--secondaryColor);
-  border-color: var(--secondaryColor);
-  color: black;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-
-  background-image: var(--gradient-webkit);
-  background-image: var(--gradient-moz);
-  background-image: var(--gradient1);
-}
-/* #resumeBtn:hover,
-#loadMoreBtn:hover,
-#resumeBtn:hover,
-#sendBtn:hover {
-  background-color: #bc8f8f;
   border-color: #bc8f8f;
   color: black;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  background-image: -webkit-linear-gradient(
-    to right,
-    #d18989,
-    #d9bfbf,
-    #f6efef
-  );
-  background-image: -moz-linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
-  background-image: linear-gradient(to right, #d18989, #d9bfbf, #f6efef);
-} */
+  background: #7a7777;
+  background: -webkit-linear-gradient(to left, #d18989, #d9bfbf, #f6efef);
+  background: -moz-linear-gradient(to left, #d18989, #d9bfbf, #f6efef);
+  background: linear-gradient(to left, #d18989, #d9bfbf, #f6efef);
+}
 
 .padding-10 {
   padding: 10px;
@@ -158,11 +107,11 @@ p {
 }
 
 hr {
-  color: var(--hrColor);
+  color: #6c4040;
 }
 
 .icons {
-  color: var(--iconColor2);
+  color: #e3cfcf;
   opacity: 0.6;
   font-size: 2em;
   padding: 8px;
@@ -173,29 +122,23 @@ hr {
 .iconsTop {
   font-size: 4em;
   padding: 20px;
-  opacity: 0.8;
+  opacity: 0.9;
   float: right;
-  color: var(--textColor);
+  color: rgb(52, 47, 54);
 }
 .iconsTop:hover {
   font-size: 6em;
 }
 
 /* -----about section------ */
-#about {
-  padding-top: 90px !important;
-  /* height: 100vh; */
-}
 
 #myPhoto {
   opacity: 0.7;
   margin-bottom: 30px;
-  -webkit-border: 8px solid;
   border: 8px solid transparent;
-  border-color: initial;
-  border-image: var(--borderGradientRight) 1 /35px;
+  border-image: linear-gradient(to right, #d18989, #7a7777);
+  border-image-slice: 1;
 }
-
 #aboutRow {
   padding: 12px 24px !important;
 }
@@ -203,10 +146,8 @@ hr {
 #myPhoto:hover {
   opacity: 1;
   border: 5px solid transparent;
-  border-color: initial;
-  border-image: var(--borderGradientLeft) 1;
-  transition: padding 300ms ease-out;
-  transition-delay: 150ms;
+  border-image: linear-gradient(to left, #d18989, #7a7777);
+  border-image-slice: 1;
 }
 
 .sectionMargin {
@@ -274,17 +215,11 @@ label {
   margin-bottom: 0 !important;
 }
 
-@media (min-width: 1400px) {
-  /* #about {
-    height: 100vh;
-  } */
-}
-
 @media (max-width: 900px) and (min-width: 700px) {
   #nameSpan {
     font-size: 26px;
   }
-  .jobSpan {
+  #jobSpan {
     font-size: 20px;
   }
   footer {
@@ -312,10 +247,6 @@ label {
     display: none !important;
   }
 
-  p {
-    text-align: center;
-  }
-
   #bgTextLeft {
     top: 30%;
     left: 0%;
@@ -323,7 +254,7 @@ label {
   #nameSpan {
     font-size: 20px;
   }
-  .jobSpan {
+  #jobSpan {
     font-size: 18px;
   }
 
@@ -356,7 +287,7 @@ label {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: var(--mainBackgroundColor);
+  background-color: #e7d8d1;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 414px) {

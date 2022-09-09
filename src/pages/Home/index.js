@@ -1,14 +1,16 @@
 import React from "react";
 import "../../index.css";
-import MainSectionImage from "../../components/SectionImage/MainSectionImage";
+import MainSectionImage from "../../components/SectionImage/MainSectionImage"
 
-function Home(props) {
+
+function Home(){
+
   //window.scrollTo ...when bottom of page hit change to route about
   return (
     <>
-      <MainSectionImage homeRef={props.homeRef} />
+    <MainSectionImage/>
     </>
-  );
+  )
 }
 
 export default Home;

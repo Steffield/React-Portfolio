@@ -49,15 +49,13 @@
 }
 
 #nameSpan {
-  font-size: 45px;
+  font-size: 40px;
   padding: 10px;
-  opacity: 0.8;
 }
 
-.jobSpan {
-  font-size: 30px;
+#jobSpan {
+  font-size: 28px;
   padding: 10px;
-  opacity: 0.8;
 }
 
 /* -----in the sections----- */
@@ -156,7 +154,7 @@ a #linkedIn:hover {
   #nameSpan {
     font-size: 30px;
   }
-  .jobSpan {
+  #jobSpan {
     font-size: 18px;
   }
 

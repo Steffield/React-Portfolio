@@ -3,7 +3,7 @@ import "./SectionImage.css";
 import Typist from "react-typist";
 import lh from "../../backgroundImages/lh.png";
 
-function MainSectionImage(props) {
+function MainSectionImage() {
   // const [theme, setTheme] = useState('light');
   // const toggleTheme = () => {
   //   if (theme === 'light') {
@@ -43,7 +43,6 @@ function MainSectionImage(props) {
       <div
         className="bgImg"
         id="home"
-        ref={props.homeRef}
         style={{ height: window.innerHeight, backgroundImage: `url(${lh})` }}
       >
         <div id="bgTextLeft">
@@ -52,11 +51,12 @@ function MainSectionImage(props) {
               Stephanie Lebby
             </span>
             <br></br>
-            <span className="wide jobSpan">Salesforce Developer</span>
-            <Typist.Backspace count={20} delay={70} />
-            <span className="wide jobSpan">
+            <span className="wide" id="jobSpan">
               Full Stack Web Developer
-              {/*<br /> & Salesforce Developer*/}
+            </span>
+            <Typist.Backspace count={24} delay={70} />
+            <span className="wide" id="jobSpan">
+              Salesforce Technical Consultant
             </span>
           </Typist>
         </div>
