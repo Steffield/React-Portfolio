@@ -21,11 +21,12 @@ function About() {
           my previous career I gained a decade of experience as Speech Language
           Pathologist, Instructor and Research Assistant in practices, hospitals
           and universities in Germany and the US. Currently, I enjoy learning
-          more about Salesforce every day and using OmniStudio Tools, Lightning
-          Web Components and Apex to find out-of-the-box or custom solutions for
-          business challenges and requirements. In my spare time I love to
-          travel and the above background picture is an edited picture of one of
-          my favorite places in New Zealand.
+          more about web development and Salesforce every day and using
+          OmniStudio Tools, Lightning Web Components and Apex to find
+          out-of-the-box or custom solutions for business challenges and
+          requirements. In my spare time I love to travel and the HOME
+          background picture is an edited picture of one of my favorite places
+          in New Zealand.
         </p>
         <div className="row">
           <div className="col-md-12 center" id="aboutRow">
