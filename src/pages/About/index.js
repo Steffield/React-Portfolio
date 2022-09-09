@@ -11,19 +11,21 @@ function About() {
         <h3 className="center">ABOUT ME</h3>
         <hr></hr>
         <p className="center padding-10">
-          <em>Full Stack Web Developer</em>
+          <em>Salesforce Technical Consultant</em>
         </p>
         <p>
-          I am a Full Stack Web Developer with experience in health care,
-          education, and data analysis. I discovered my love for coding when I
-          was enrolled in a PhD program in Communication Sciences and Disorders
-          and have since taken online courses, created small projects in my free
-          time and finally decided to change career paths and fully commit to
-          coding. I recently received a certification in Full Stack Web
-          Development from the University of North Carolina. I enjoy building
-          responsive applications using front and back end skills. In my spare
-          time I love to travel and the above background picture is an edited
-          picture of one of my favorite places in New Zealand.
+          I am a career changer with an insatiable passion for learning and
+          problem solving. I have a background in Speech Language Pathology (MS
+          in Human Communication Sciences) and completed a Full Stack Web
+          Development Bootcamp at the University of North Carolina in 2020. In
+          my previous career I gained a decade of experience as Speech Language
+          Pathologist, Instructor and Research Assistant in practices, hospitals
+          and universities in Germany and the US. Currently, I enjoy learning
+          more about Salesforce every day and using OmniStudio Tools, Lightning
+          Web Components and Apex to find out-of-the-box or custom solutions for
+          business challenges and requirements. In my spare time I love to
+          travel and the above background picture is an edited picture of one of
+          my favorite places in New Zealand.
         </p>
         <div className="row">
           <div className="col-md-12 center" id="aboutRow">
