@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index.css";
 import me from "../../backgroundImages/me.png";
-import Resume from "../../backgroundImages/Resume.pdf";
+import Resume from "../../backgroundImages/LebbyResumeTC.pdf";
 
 function About() {
   //add function when scrolled to top go to home, when scrolled to bottom go to portfolio
@@ -50,10 +50,11 @@ function About() {
                 <br></br>
                 <p>
                   HTML, CSS and CSS Frameworks (such as Bootstrap, Bulma,
-                  Materialize, Semantic UI), Sass, React, JavaScript, JQuery,
-                  Node.js, Express, Passport, RESTful APIs, relational and
-                  non-relational databases, such as MySQL and Sequelize, MongoDB
-                  and Mongoose, client-side storage with IndexedDB API etc.
+                  Materialize, Semantic UI), Sass, React, JavaScript, Node.js,
+                  Express, RESTful APIs, relational and non-relational
+                  databases, such as MySQL and Sequelize, MongoDB and Mongoose,
+                  SOQL, Salesforce.com, Apex, Lightning Web Components,
+                  Experience Cloud etc.
                 </p>
 
                 <br></br>
