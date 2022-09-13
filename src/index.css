@@ -150,6 +150,10 @@ hr {
   border-image-slice: 1;
 }
 
+.SFblue {
+  color: #006fd2;
+}
+
 .sectionMargin {
   margin-top: 16px !important;
   margin-bottom: 16px !important;

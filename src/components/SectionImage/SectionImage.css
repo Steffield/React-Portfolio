@@ -89,7 +89,8 @@
   margin-right: 16px !important;
 }
 #portfolio,
-#contact {
+#contact,
+#certifications {
   position: relative;
   opacity: 0.75;
 }
@@ -120,6 +121,15 @@ a #linkedIn:hover {
   color: #bc8f8f;
   font-weight: bold;
   padding-left: 5px;
+}
+
+.trailheadInText {
+  color: #006fd2;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.trailheadInText:hover {
+  color: #004b8c;
 }
 
 .githubInText:hover {
