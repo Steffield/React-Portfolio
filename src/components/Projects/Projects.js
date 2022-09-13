@@ -41,7 +41,7 @@ function Projects() {
             link="https://steffield.github.io/Project-One//"
             image={election}
             projectName="Know Your Vote"
-            technologies="Google Civic Information API, Google Maps APi, JavaScript, JQuery, Bootstrap"
+            technologies="Google Civic Information API, Google Maps APi, JavaScript, JQuery, Bootstrap - Under construction"
           />
         </div>
 
