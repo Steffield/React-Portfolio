@@ -70,9 +70,9 @@ function MainSectionImage() {
           <a href="https://www.linkedin.com/in/stephanie-lebby">
             <i className="fa fa-linkedin iconsTop"></i>
           </a>
-          <a href="https://www.linkedin.com/in/stephanie-lebby">
+          {/* <a href="https://www.linkedin.com/in/stephanie-lebby">
             <i className="fa fa-salesforce iconsTop"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </>
