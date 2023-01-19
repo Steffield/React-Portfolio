@@ -7,7 +7,7 @@ import Home from "./pages/Home/index";
 import About from "./pages/About/index";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
-import Certification from "./pages/Certifications/index";
+import Certification from "./pages/Certification/index";
 //style
 import "./App.css";
 

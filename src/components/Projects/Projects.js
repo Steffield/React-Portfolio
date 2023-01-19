@@ -15,14 +15,16 @@ function Projects() {
       <div>
         <div className="row">
           <ProjectCard
-            link="https://miles4smiles.herokuapp.com/"
+            link="https://github.com/Graphicaction/Miles4Smiles"
+            // link="https://miles4smiles.herokuapp.com/"
             image={M4S}
             projectName="Miles 4 Smiles"
             technologies="MongoDB, Mongoose, Express, React.js, Node.js, React-Chart2.js, Google Places API, Sass, Passport, Jest"
           />
 
           <ProjectCard
-            link="https://code--query.herokuapp.com/"
+            link="https://github.com/Steffield/Mentor-Match"
+            // link="https://code--query.herokuapp.com/"
             image={codeQuery}
             projectName="Code Query"
             technologies="MySQL, Sequelize, Node, Express, Handlebars, Passport, Socket.io, Jdenticon, SimpleMDE, Markdown.it, Bulma"
@@ -31,12 +33,12 @@ function Projects() {
 
         <div className="row">
           <ProjectCard
-            link="https://steffield-workout-tracker.herokuapp.com/"
+            link="https://github.com/Steffield/Workout-Tracker"
+            //link="https://steffield-workout-tracker.herokuapp.com/"
             image={workoutTracker}
             projectName="Workout Tracker"
             technologies="MongoDB, Mongoose, Express, Chart.js, Semantic UI, Node"
-          />
-
+          />{" "}
           <ProjectCard
             link="https://steffield.github.io/Project-One//"
             image={election}
@@ -53,7 +55,8 @@ function Projects() {
             technologies="React.js, Axios, Third Party API randomuserapi.me, Bootstrap"
           />
           <ProjectCard
-            link="https://steffield-burger-app.herokuapp.com/"
+            link="https://github.com/Steffield/Burger"
+            //link="https://steffield-burger-app.herokuapp.com/"
             image={burger}
             projectName="Burger App"
             technologies="MySQL, Node, Express, Materialize, JavaScript"
